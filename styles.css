@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     margin: 0;
     color: black;
-    background: hsl(0, 0%, 90%);
+    background: white
 }
 
 @media only screen and (max-width: 599px) {
@@ -57,7 +57,7 @@ body {
 }
 
 #navi {
-    background: linear-gradient(90deg, hsl(221, 51%, 16%), hsl(0, 0%, 90%) 85%);
+    background: linear-gradient(90deg, hsl(221, 51%, 16%), white 85%);
     width: auto;
     padding-left: 15px;
     padding-right: 15px;
