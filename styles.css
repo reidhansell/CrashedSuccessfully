@@ -3,8 +3,8 @@ body {
     width: auto;
     min-height: 100vh;
     margin: 0;
-    color: black;
-    background: white
+    color: white;
+    background: hsl(221, 51%, 16%)
 }
 
 @media only screen and (max-width: 599px) {
@@ -57,7 +57,7 @@ body {
 }
 
 #navi {
-    background: linear-gradient(90deg, hsl(221, 51%, 16%), white 85%);
+    background: linear-gradient(90deg, hsl(221, 51%, 16%), white 90%);
     width: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -85,5 +85,30 @@ a {
 
 .article {
     width: 100%;
-    border-top: 1px solid black;
+    margin-top: 40px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+    color: black;
+}
+
+#landing-logo {
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    background: rgba(255, 255, 255, 0);
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-10px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
 }
