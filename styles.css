@@ -1,0 +1,75 @@
+body {
+    font-family: 'Turret Road', cursive;
+    width: auto;
+    min-height: 100vh;
+    margin: 0;
+    color: black;
+    background: hsl(0, 0%, 90%);
+}
+
+@media only screen and (max-width: 599px) {
+
+    /* For mobile: */
+    .container {
+        width: 95vw;
+    }
+
+    body {
+        font-size: 1em;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For tablet: */
+    .container {
+        width: 80vw;
+    }
+
+    body {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    /* For desktop: */
+    .container {
+        width: 60vw;
+    }
+
+    body {
+        font-size: 1.4em;
+    }
+}
+
+#navi {
+    background: linear-gradient(90deg, hsl(221, 51%, 16%), hsl(0, 0%, 90%) 85%);
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+
+a:hover {
+    transition: 0.8s;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(37, 98%, 53%);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article {
+    width: 100%;
+    border-top: 1px solid black;
+}
