@@ -1,3 +1,3 @@
 # CrashedSuccessfully
 
-My software blog - this project is dedicated to using raw HTML/CSS/JS.
+My software blog. Made with raw HTML/CSS/JS.
